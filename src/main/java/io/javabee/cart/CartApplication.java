@@ -13,7 +13,7 @@ public class CartApplication {
 		SpringApplication.run(CartApplication.class, args);
 	}
 
-	// @LoadBalanced
+	@LoadBalanced
 	@Bean
 
 	RestTemplate restTemplate() {
